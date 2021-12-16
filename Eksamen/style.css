@@ -10,7 +10,7 @@ body{
   width:100%;
   height: 90vh;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(mig1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(medie/mig1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -18,7 +18,7 @@ body{
   width:100%;
   height: 100vh;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(mig1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(medie/mig1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -76,6 +76,12 @@ body{
   margin-bottom:10px;
   color: #B8CEA8
 }
+.content h2{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 50px;
+  font-size: 25px;
+}
 .content p{
   margin: 20px auto;
   font-weight: 100;
@@ -121,256 +127,213 @@ a:hover {
   font-size: 30px;
   margin-bottom:20px;
 }
-}
 /*billede-grid på forside*/
 .container2 {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-  .projekt1 { grid-area: 1 / 1 / 2 / 2;}
-      .projekt1 img{
-        width: 100%;
-      }
-  .projekt2 { grid-area: 2 / 1 / 3 / 2;}
-      .projekt2 img{
-        width: 100%;
-      }
-  .projekt3 { grid-area: 3 / 1 / 4 / 2;}
-      .projekt3 img{
-        width: 100%;
-      }
-  .projekt4 { grid-area: 4 / 1 / 5 / 2;}
-      .projekt4 img{
-        width: 100%;
-      }
-  .projekt5 { grid-area: 5 / 1 / 6 / 2;}
-      .projekt5 img{
-        width: 100%;
-      }
-  .projekt6 { grid-area: 6 / 1 / 7 / 2;}
-      .projekt6 img{
-        width: 100%;
-      }
+.projekt1 { grid-area: 1 / 1 / 2 / 2;
+}
+.projekt1 img{
+  width: 100%;
+}
+.projekt2 { grid-area: 2 / 1 / 3 / 2;
+}
+.projekt2 img{
+  width: 100%;
+}
+.projekt3 { grid-area: 3 / 1 / 4 / 2;
+}
+.projekt3 img{
+  width: 100%;
+}
+.projekt4 { grid-area: 4 / 1 / 5 / 2;
+}
+.projekt4 img{
+  width: 100%;
+}
+.projekt5 { grid-area: 5 / 1 / 6 / 2;
+}
+.projekt5 img{
+  width: 100%;
+  background-color: #29ab84;
+}
+.projekt6 { grid-area: 6 / 1 / 7 / 2;
+}
+.projekt6 img{
+  width: 100%;
+}
 
 /*grid projekt side*/
-  .container3 {
-    display: grid;
-    margin-top: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    gap: 20px 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "projekt1pro tekst1pro"
-      "tekst2pro projekt2pro"
-      "projekt3pro tekst3pro"
-      "tekst4pro projekt4pro"
-      "projekt5pro tekst5pro"
-      "tekst6pro projekt6pro";
-  }
+.container3 {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: row;
+  gap: 0px 0px;
+  color: #fff;
+}
 
-  .projekt1pro { grid-area: projekt1pro;}
-  .projekt1pro img{
-    width: 100%;
-  }
-  .tekst1pro { grid-area: tekst1pro;
-    background: #B8CEA8;
-    padding: 30px;
-  }
-  .tekst2pro { grid-area: tekst2pro;
-    background:#D5CDB8;
-    padding: 30px;
-  }
-  .projekt2pro { grid-area: projekt2pro;}
-    .projekt2pro img{
-      width: 100%;
-    }
-  .projekt3pro { grid-area: projekt3pro;}
-    .projekt3pro img{
-      width: 100%;
-    }
-  .tekst3pro { grid-area: tekst3pro;
-    background: #B8CEA8;
-    padding: 30px;
-  }
-  .tekst4pro { grid-area: tekst4pro;
-    background:#D5CDB8;
-    padding: 30px;
-  }
-  .projekt4pro { grid-area: projekt4pro;}
-    .projekt4pro img{
-      width: 100%;
-    }
-  .projekt5pro { grid-area: projekt5pro;}
-    .projekt5pro img{
-      width: 100%;
-    }
-  .tekst5pro { grid-area: tekst5pro;
-    background:#B8CEA8;
-    padding: 30px;
-  }
-  .tekst6pro { grid-area: tekst6pro;
-    background:#D5CDB8;
-    padding: 30px;
-  }
-  .projekt6pro { grid-area: projekt6pro;}
-    .projekt6pro img{
-      width: 100%;
-    }
-
+#projekt1pro { grid-area: 1 / 1 / 2 / 2;
+}
+#projekt1pro img{
+  width: 100%;
+}
+.tekst1pro { grid-area: 2 / 1 / 3 / 2;
+  background: #B8CEA8;
+  padding: 100px;
+}
+#projekt2pro { grid-area: 3 / 1 / 4 / 2;
+}
+#projekt2pro img{
+  width: 100%;
+}
+.tekst2pro { grid-area: 4 / 1 / 5 / 2;
+  background:#D5CDB8;
+  padding: 100px;
+}
+#projekt3pro { grid-area: 5 / 1 / 6 / 2;
+}
+#projekt3pro img{
+  width: 100%;
+}
+.tekst3pro { grid-area: 6 / 1 / 7 / 2;
+  background: #B8CEA8;
+  padding: 100px;
+}
+#projekt4pro { grid-area: 7 / 1 / 8 / 2;
+}
+#projekt4pro img{
+  width: 100%;
+}
+.tekst4pro { grid-area: 8 / 1 / 9 / 2;
+  background:#D5CDB8;
+  padding: 100px;
+}
+#projekt5pro { grid-area: 9 / 1 / 10 / 2;
+}
+#projekt5pro img{
+  width: 100%;
+}
+.tekst5pro { grid-area: 10 / 1 / 11 / 2;
+  background:#B8CEA8;
+  padding: 100px;
+}
+#projekt6pro { grid-area: 11 / 1 / 12 / 2;
+}
+#projekt6pro img{
+  width: 100%;
+}
+.tekst6pro { grid-area: 12 / 1 / 13 / 2;
+  background:#D5CDB8;
+  padding: 100px;
+}
 
 /*Style på skærm over 600px*/
 @media only screen and (min-width:600px){
   html,body {
-      height: 100%;
-    }
+    height: 100%;
+}
 
-    .container2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-auto-flow: row;
-        grid-template-areas:
-          "projekt1 projekt2 projekt3"
-          "projekt4 projekt5 projekt6"
-          ". . .";
-      }
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: row;
+  grid-template-areas:
+  "projekt1 projekt2 projekt3"
+  "projekt4 projekt5 projekt6"
+  ". . .";
+}
 
-    .projekt1 { grid-area: projekt1; }
+.projekt1 { grid-area: projekt1; }
 
-    .projekt2 { grid-area: projekt2; }
+.projekt2 { grid-area: projekt2; }
 
-    .projekt3 { grid-area: projekt3; }
+.projekt3 { grid-area: projekt3; }
 
-    .projekt4 { grid-area: projekt4; }
+.projekt4 { grid-area: projekt4; }
 
-    .projekt5 { grid-area: projekt5; }
+.projekt5 { grid-area: projekt5; }
 
-    .projekt6 { grid-area: projekt6; }
+.projekt6 { grid-area: projekt6; }
+}
 
 /*Style på skærm over 700px*/
-    @media only screen and (min-width:700px){
-      html,body {
-          height: 100%;
-        }
-    .container3 {
-      display: grid;
-      margin-top: 20px;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-auto-columns: 1fr;
-      gap: 20px 20px;
-      margin-bottom: 20px;
-      grid-auto-flow: row;
-      grid-template-areas:
-      "projekt1pro tekst1pro"
-      "tekst2pro projekt2pro"
-      "projekt3pro tekst3pro"
-      "tekst4pro projekt4pro"
-      "projekt5pro tekst5pro"
-      "tekst6pro projekt6pro";
-  }
-
-  .projekt1pro { grid-area: projekt1pro;}
-  .projekt1pro img{
-      width: 100%;
-    }
-  .tekst1pro { grid-area: tekst1pro;
-    background: #B8CEA8;
-    padding: 30px;
-  }
-  .tekst2pro { grid-area: tekst2pro;
-    background:#D5CDB8;
-    padding: 30px;
-  }
-  .projekt2pro { grid-area: projekt2pro;}
-  .projekt2pro img{
-      width: 100%;
-    }
-  .projekt3pro { grid-area: projekt3pro;}
-  .projekt3pro img{
-      width: 100%;
-    }
-  .tekst3pro { grid-area: tekst3pro;
-    background: #B8CEA8;
-    padding: 30px;
-  }
-  .tekst4pro { grid-area: tekst4pro;
-    background:#D5CDB8;
-    padding: 30px;
-  }
-  .projekt4pro { grid-area: projekt4pro;}
-  .projekt4pro img{
-      width: 100%;
-    }
-  .projekt5pro { grid-area: projekt5pro;}
-  .projekt5pro img{
-      width: 100%;
-    }
-  .tekst5pro { grid-area: tekst5pro;
-    background:#B8CEA8;
-    padding: 30px;
-  }
-  .tekst6pro { grid-area: tekst6pro;
-    background:#D5CDB8;
-    padding: 30px;
-  }
-  .projekt6pro { grid-area: projekt6pro;}
-  .projekt1pro img{
-      width: 100%;
-    }
-
-/*
-body {
-  max-width: 1000px;
-  margin:auto;
-}
-
-body {
-  display: grid;
-  grid-template-areas:
-    'header'
-    'menu '
-    'main'
-    'right'
-    'footer';
-  grid-template-columns: 1fr;
-  grid-gap: 10px;
-  background-color: rgb(244, 60, 121);
-  padding: 10px;
-}
-
-.item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container > * {
-  background-color: rgb(117, 82, 173);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-
-  .grid-container{
+@media only screen and (min-width:970px){
+  html,body {
     height: 100%;
-    grid-template-areas:
-        'header header header header '
-        'menu main main right'
-        'footer footer footer footer';
-      grid-template-columns: 1fr 3fr 1fr 1fr;
-      grid-template-rows: 100px auto 100px;
-      grid-gap: 10px;
-      background-color: rgb(244, 60, 121);
-      padding: 10px;
-    }
-  }
+}
+.container3 {
+  display: grid;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+  margin-bottom: 20px;
+  grid-template-areas:
+  "projekt1pro tekst1pro"
+  "tekst2pro projekt2pro"
+  "projekt3pro tekst3pro"
+  "tekst4pro projekt4pro"
+  "projekt5pro tekst5pro"
+  "tekst6pro projekt6pro";
+}
+
+#projekt1pro { grid-area: projekt1pro;}
+#projekt1pro img{
+  width: 100%;
+}
+.tekst1pro { grid-area: tekst1pro;
+  background: #B8CEA8;
+  padding: 150px;
+}
+.tekst2pro { grid-area: tekst2pro;
+  background:#D5CDB8;
+  padding: 150px;
+}
+#projekt2pro { grid-area: projekt2pro;}
+#projekt2pro img{
+  width: 100%;
+}
+#projekt3pro { grid-area: projekt3pro;}
+#projekt3pro img{
+  width: 100%;
+}
+.tekst3pro { grid-area: tekst3pro;
+  background: #B8CEA8;
+  padding: 150px;
+}
+.tekst4pro { grid-area: tekst4pro;
+  background:#D5CDB8;
+  padding: 150px;
+}
+#projekt4pro { grid-area: projekt4pro;}
+#projekt4pro img{
+  width: 100%;
+}
+#projekt5pro { grid-area: projekt5pro;}
+#projekt5pro img{
+  width: 100%;
+}
+.tekst5pro { grid-area: tekst5pro;
+  background:#B8CEA8;
+  padding: 150px;
+}
+.tekst6pro { grid-area: tekst6pro;
+  background:#D5CDB8;
+  padding: 150px;
+}
+#projekt6pro { grid-area: projekt6pro;}
+#projekt6pro img{
+  width: 100%;
+}
+}
