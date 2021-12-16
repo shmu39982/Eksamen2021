@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: sans-serif
+  font-family: 'Open Sans', sans-serif;
 }
 body{
     background: #F4F0E4;
@@ -84,6 +84,7 @@ body{
 }
 .content p{
   margin: 20px auto;
+  font-size: 20px;
   font-weight: 100;
   line-height: 25px;
 }
